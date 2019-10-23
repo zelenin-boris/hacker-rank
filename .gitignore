@@ -1,9 +1,6 @@
 .gradle
 /local.properties
 **/build
-/gradle
-gradlew
-gradlew.bat
 **.iml
 **/.idea
 **/com_crashlytics_export_strings.xml
