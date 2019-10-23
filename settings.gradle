@@ -1,2 +1,11 @@
-include ':app'
 rootProject.name='Sample App'
+include ':app'
+
+include ':common'
+project(':common').projectDir = new File(settingsDir, 'feature/common')
+
+include ':list_screen'
+project(':list_screen').projectDir = new File(settingsDir, 'feature/list_screen')
+
+include ':card_screen'
+project(':card_screen').projectDir = new File(settingsDir, 'feature/card_screen')
