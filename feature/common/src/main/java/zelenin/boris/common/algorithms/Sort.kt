@@ -1,5 +1,5 @@
 package zelenin.boris.common.algorithms
 
-interface Sort<E> {
-    fun sort(c: Collection<E>): Collection<E>
+interface Sort<T: Comparable<T>> {
+    fun sort(list: List<T>): List<T>
 }
