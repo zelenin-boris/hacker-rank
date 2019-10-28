@@ -2,7 +2,7 @@ package zelenin.boris.common.async
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import zelenin.boris.common.problem.CountingValleys
+import zelenin.boris.common.problem.algorithms.implementation.CountingValleys
 
 class RxJavaTest {
     @Test

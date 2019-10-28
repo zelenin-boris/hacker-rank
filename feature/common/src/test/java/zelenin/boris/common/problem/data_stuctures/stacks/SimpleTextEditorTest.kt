@@ -1,7 +1,8 @@
-package zelenin.boris.common.problem
+package zelenin.boris.common.problem.data_stuctures.stacks
 
 import org.junit.Assert.assertArrayEquals
 import org.junit.Test
+import zelenin.boris.common.problem.data_stuctures.stacks.SimpleTextEditor
 
 class SimpleTextEditorTest {
     @Test

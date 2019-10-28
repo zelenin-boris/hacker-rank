@@ -1,4 +1,6 @@
-package zelenin.boris.common.problem
+package zelenin.boris.common.problem.algorithms.strings
+
+import zelenin.boris.common.problem.Problem
 
 // https://www.hackerrank.com/challenges/alternating-characters/problem
 object AlternatingCharacters : Problem<String, Int> {

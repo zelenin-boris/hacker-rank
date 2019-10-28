@@ -1,4 +1,4 @@
-package zelenin.boris.common.problem
+package zelenin.boris.common.problem.algorithms.implementation
 
 import org.junit.Test
 import org.junit.Assert.assertEquals

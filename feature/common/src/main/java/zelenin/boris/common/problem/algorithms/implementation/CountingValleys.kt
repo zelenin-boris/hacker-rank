@@ -1,4 +1,6 @@
-package zelenin.boris.common.problem
+package zelenin.boris.common.problem.algorithms.implementation
+
+import zelenin.boris.common.problem.Problem
 
 // https://www.hackerrank.com/challenges/counting-valleys/problem
 object CountingValleys : Problem<String, Int> {

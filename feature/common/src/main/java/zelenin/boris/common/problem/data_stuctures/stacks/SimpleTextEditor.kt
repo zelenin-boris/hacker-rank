@@ -1,5 +1,6 @@
-package zelenin.boris.common.problem
+package zelenin.boris.common.problem.data_stuctures.stacks
 
+import zelenin.boris.common.problem.Problem
 import java.util.*
 
 // https://www.hackerrank.com/challenges/simple-text-editor/problem

@@ -1,5 +1,6 @@
-package zelenin.boris.common.problem
+package zelenin.boris.common.problem.algorithms.implementation
 
+import zelenin.boris.common.problem.Problem
 import java.util.*
 
 // https://www.hackerrank.com/challenges/migratory-birds/problem
