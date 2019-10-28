@@ -1,4 +1,4 @@
-package zelenin.boris.common.algorithms
+package zelenin.boris.common.algorithm
 
 class QSort<T : Comparable<T>> : Sort<T> {
     override fun sort(list: List<T>): List<T> {

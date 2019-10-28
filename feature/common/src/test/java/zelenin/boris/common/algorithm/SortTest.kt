@@ -1,11 +1,7 @@
-package zelenin.boris.common
+package zelenin.boris.common.algorithm
 
 import org.junit.Assert.assertArrayEquals
-import org.junit.Ignore
 import org.junit.Test
-import zelenin.boris.common.algorithms.KotlinSort
-import zelenin.boris.common.algorithms.QSort
-import zelenin.boris.common.algorithms.Sort
 
 abstract class SortTestBase<T : Comparable<T>> {
     protected abstract fun createSort(): Sort<T>

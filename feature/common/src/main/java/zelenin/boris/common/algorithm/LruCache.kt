@@ -1,4 +1,4 @@
-package zelenin.boris.common.algorithms
+package zelenin.boris.common.algorithm
 
 import java.util.*
 import kotlin.collections.HashMap
