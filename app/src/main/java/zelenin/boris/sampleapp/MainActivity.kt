@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager
                 .beginTransaction()
-                .replace(R.id.container_layout, ListScreenFragment.newInstanse(100))
+                .replace(R.id.container_layout_id, ListScreenFragment.newInstanse(100))
                 .commit()
     }
 }
