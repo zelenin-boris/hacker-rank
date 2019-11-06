@@ -70,19 +70,21 @@ class FillTheArrayTest {
     @Test
     fun testBig() {
         val input = arrayListOf<List<Int>>(
-                arrayListOf(1, 1, 1, 1),
-                arrayListOf(1, 1, 1, 1),
                 arrayListOf(0, 0, 0, 0),
                 arrayListOf(0, 0, 0, 0),
-                arrayListOf(1, 1, 1, 1)
+                arrayListOf(0, 0, 0, 0),
+                arrayListOf(0, 0, 0, 0),
+                arrayListOf(0, 0, 0, 0),
+                arrayListOf(0, 0, 0, 0)
         )
 
         val output = arrayListOf<List<Int>>(
-                arrayListOf(1, 1, 1, 1),
-                arrayListOf(1, 1, 1, 1),
                 arrayListOf(2, 2, 2, 2),
                 arrayListOf(2, 2, 2, 2),
-                arrayListOf(1, 1, 1, 1)
+                arrayListOf(2, 2, 2, 2),
+                arrayListOf(2, 2, 2, 2),
+                arrayListOf(2, 2, 2, 2),
+                arrayListOf(2, 2, 2, 2)
         )
 
         assertEquals(output.toString(),
