@@ -19,11 +19,11 @@ class MinByValueTest {
                     put("c", 5)
                 },
                 hashMapOf<String, Int>().apply {
-                    put("b", 8)
+                    put("с", 8)
                 }
         ), "a")
 
-        assertEquals("{a=0, b=2, c=3}", MinByValue.calculate(input))
+        assertEquals("{с=8}", MinByValue.calculate(input))
     }
 
     @Test
@@ -44,6 +44,6 @@ class MinByValueTest {
                 }
         ), "b")
 
-        assertEquals("{a=0, b=2, c=3}", MinByValue.calculate(input))
+        assertEquals("{a=1, b=2, c=5}", MinByValue.calculate(input))
     }
 }
